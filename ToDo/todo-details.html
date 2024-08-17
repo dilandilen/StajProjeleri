@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Details</title>
+    <!-- Bootstrap CSS ekleyin -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/todo-details.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="text-center">
+        <div class="container">
+            <h1>Todo Details</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <div class="details-wrapper">
+            <table class="table table-borderless" id="detail-table" >
+                <thead>
+                   
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Title:</th>
+                        <td id="todo-title"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Description:</th>
+                        <td id="todo-description"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Date Created:</th>
+                        <td id="todo-date"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="back-button" class="btn btn-primary">Back to List</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer >
+        <div class="container">
+            <p>&copy; 2024 Todo App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS ve bağımlılıklarını ekleyin -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

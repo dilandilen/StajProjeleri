@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/app.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>ToDo App</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="wrapper">
+            <form id="todo-form">
+                <input id="todo-input" type="text" placeholder="Write anything and hit enter to add" autocomplete="off" required minlength="3">
+                <textarea id="todo-desc" placeholder="Enter a description (optional)" maxlength="20"></textarea>
+                <button id="add-button" type="submit">Add</button>
+            </form>
+            <ul id="todo-list">
+                <!-- Todo list items will be appended here -->
+            </ul>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ToDo App. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
